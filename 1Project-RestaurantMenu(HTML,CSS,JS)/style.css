@@ -1,0 +1,111 @@
+.Main_Container {
+    border: 1px solid black;
+}
+
+#title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5px;
+    padding: 40px;
+    background-color: rgba(149, 208, 231, 0.55);
+}
+
+#Greeting {
+    text-align: center;
+    color: rgb(180, 50, 250);
+    margin: 10px;
+}
+
+.Dishes {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.Images {
+    margin: 20px;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+}
+
+#sI {
+    background-color: rgba(20, 208, 201, 0.55);
+}
+
+#nI {
+    background-color: rgb(180, 50, 250, 0.6);
+}
+
+#nV {
+    background-color: rgba(200, 170, 177, 0.65);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.all {
+    border: none;
+    text-align: start;
+    margin: 5px;
+}
+
+.ButtonClass {
+    margin: 5px;
+    border: none;
+    background: none;
+}
+
+.Contents {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: normal;
+}
+
+.List1 {
+    font-weight: bold;
+    background: url("images/South.jpg") no-repeat;
+    background-size: cover;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#submit {
+    font-size: 1.3em;
+    border: none;
+    height: 35px;
+    width: 100px;
+    background-color: green;
+}
+
+#List2 {
+    background-image: url("images/NonVeg.jpg");
+    font-weight: bold;
+}
+
+#List3 {
+    background-image: url("images/North.jpg");
+}
+
+#subTitle {
+    margin: 5px;
+    background-color: rgba(192, 252, 29, 0.5);
+}
+
+.Result {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FinalSubTag {
+    margin: 0px auto;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC hotel website</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+
+    <body>
+        <div class="Main_Container">
+            <h1 id="title">HOTEL ABC</h1>
+
+            <div class="HomeButtons">
+                    <a href="../main.html"><button style="background-color:lightgreen" class="ButtonClass"><h4 class="all">Home</h4></button></a>
+                    <a href="SouthIndian.html"><button style="background-color:lightgreen" class="ButtonClass"><h4 class="all">SOUTH-INDIAN</h4></button></a>
+                    <a href="NonVeg.html"><button style="background-color:lightgreen" class="ButtonClass"><h4 class="all">NON-VEGETARIAN</h4></button></a>
+            </div>
+            
+            <div>
+                <h1 id="subTitle" style="text-align:center;">NORTH INDIAN DISHES</h1>
+                <div class="Contents">
+                    <div class="Items"> 
+                        <div>
+                            <h2 style="text-align:center;">Available Items</h2>
+                        </div>
+                        
+                        <div class="List1" id="List3">
+                            <div>
+                                <ul>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id1"><h3>Aloo Paratha</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id2"><h3>Dal Fry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id3"><h3>shahi Paneer</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id4"><h3>Mangoo Dal Halwa</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id5"><h3>Achari Paneer</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id6"><h3>Aloo Matar</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id7"><h3>Dahi Vada</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id8"><h3>Matar Kachori</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id9"><h3>Vermicelli Kheer</h3></button></li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id10"><h3>Matur Mushroom</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id11"><h3>Gobi Paratha</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id12"><h3>Bread Pakora</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id13"><h3>Aloo Palak</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id14"><h3>Bhindi Fry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id15"><h3>Veg taheri</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id16"><h3>Besan Chilla</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id17"><h3>Gajar ki Barfi</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id18"><h3>Khoya Matar Makhana</h3></button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Selected_Items">
+                        <h2 style="text-align:center;">Selected Items</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="Result">
+               <button class="ButtonClass" id="submit"><a href="../Result.html">ORDER</a></button>
+            </div>
+        </div>
+       <script type="text/javascript" src="../main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC hotel website</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+	
+    <body>
+        <div class="Main_Container">
+            <h1 id="title">HOTEL ABC</h1>
+            <div class="HomeButtons">
+                    <a href="../main.html"><button style="background-color:rgba(200,200,20,0.4)" class="ButtonClass"><h4 class="all">Home</h4></button></a>
+                    <a href="SouthIndian.html"><button style="background-color:rgba(200,200,20,0.4)" class="ButtonClass"><h4 class="all">SOUTH-INDIAN</h4></button></a>
+                    <a href="NorthIndian.html"><button style="background-color:rgba(200,200,20,0.4)" class="ButtonClass"><h4 class="all">NORTH-INDIAN</h4></button></a>
+            </div>
+            
+            <div>
+                <h1 id="subTitle" style="text-align:center;">NON-VEGETARIAN DISHES</h1>
+
+                <div class="Contents">
+
+                    <div class="Items"> 
+                        <div>
+                            <h2 style="text-align:center;">Available Items</h2>
+                        </div>
+                        <div class="List1" id="List2">
+                            <div>
+                                <ul>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id1"><h3>Egg Curry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id2"><h3>Chicken Biriyani</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id3"><h3>Mutton Biriyani</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id4"><h3>Chicken fry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id5"><h3>Mutton fry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id6"><h3>Fish curry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id7"><h3>Egg Biriyani</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id8"><h3>Mutton chaaps</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id9"><h3>Kaima</h3></button></li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id10"><h3>Thandoori Chicken</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id11"><h3>Spicy Chicken 65</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id12"><h3>Chicken Kabab</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id13"><h3>Amlet</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id14"><h3>Fish Biriyani</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id15"><h3>Boiled Eggs</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id16"><h3>Prawn Curry</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id17"><h3>bbq Chicken</h3></button></li>
+                                    <li><button onclick="addToCart(this.id)" class="ButtonClass" id="id18"><h3>Mutton korma</h3></button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Selected_Items">
+                        <h2 style="text-align:center;">Selected Items</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="Result">
+               <button class="ButtonClass" id="submit"><a href="../Result.html">ORDER</a></button>
+            </div>
+        </div>
+        <script type="text/javascript" src="../main.js"></script>
+    </body>
+</html>
